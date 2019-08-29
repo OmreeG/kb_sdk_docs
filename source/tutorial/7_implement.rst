@@ -209,12 +209,12 @@ Feel free to add another test for the ``max_length`` being greater than the ``mi
 
 Re-run ``kb-sdk test`` to make sure everything still works.
 
-Back to defining tests (``test/{username}ContigFilterImpl_server_test.py``).
+Back to defining tests (``test/{username}ContigFilter_server_test.py``).
 We can add some additional tests to make sure we raise ValueErrors for invalid parameters:
 
 .. code-block:: python
 
-    # Inside test/{username}ContigFilterImpl_server_test.py
+    # Inside test/{username}ContigFilter_server_test.py
     # At the end of the test class
     def test_invalid_params(self):
         impl = self.serviceImpl
